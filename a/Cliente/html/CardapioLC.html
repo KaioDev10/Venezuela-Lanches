@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/a/Cliente/logo/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/a/Cliente/css/MenuLC.css">
+
+    <title>Menu</title>
+</head>
+
+<body>
+
+    <div class="infocliente">
+
+        <h1>Facilite seu Pedido</h1>
+
+        <input type="text" id="nm" name="nome" placeholder="Digite seu nome">
+
+        <select id="mesa" name="mesa">
+            <option></option>
+            <option>Mesa 1</option>
+            <option>Mesa 2</option>
+            <option>Mesa 3</option>
+            <option>Mesa 4</option>
+            <option>Mesa 5</option>
+            <option>Mesa 6</option>
+        </select>
+
+    </div>
+
+    <div id="cardapio" class="cardapio"></div>
+    <div class="itens">
+        <img src="/a/Cliente/img_comida/-img-cachorroquente.jpeg" alt="hotdog">
+        <img src="/a/Cliente/img_comida/img-pastel.jpeg" alt="pastel">
+        <img src="/a/Cliente/img_comida/img-empanada.jpeg" alt="Empanado">
+        <img src="/a/Cliente/img_comida/img-espeto_carne.jpeg" alt="espeto">
+        <img src="/a/Cliente/img_comida/img-espeto_frango.jpeg" alt="espeto">
+        <img src="/a/Cliente/img_comida/img-espeto_linguica.jpeg" alt="espeto">
+        <img src="/a/Cliente/img_comida/img-batata250g.jpeg" alt="batata">
+        <img src="/a/Cliente/img_comida/img-salchi_batata.jpeg" alt="salchi_batata">
+        <img src="/a/Cliente/img_comida/img-arroz.jpeg" alt="aarroz-frito">
+        <img src="/a/Cliente/img_comida/img-coca_lata.jpeg" alt="refrigerante">
+        <img src="/a/Cliente/img_comida/img-fanta_laranja.jpeg" alt="refrigerante">
+        <img src="/a/Cliente/img_comida/img-fanta_lata.jpeg" alt="refrigerante">
+        <img src="/a/Cliente/img_comida/img-guarana_lata.jpeg" alt="refrigerante">
+        <img src="/a/Cliente/img_comida/img-garrafa_agua.jpeg" alt="agua">
+
+    </div>
+
+    <div class="pedido">
+
+        <h2>Pedido</h2>
+
+        <p><b>Mesa:</b> <span id="pedidoMesa"></span></p>
+        <p><b>Cliente:</b> <span id="pedidoCliente"></span></p>
+
+        <ul id="listaPedido"></ul>
+
+        <div id="resumoPedido"></div>
+
+        <p>Total: R$ <span id="total">0.00</span></p>
+    </div>
+
+    <button class="botao" id="btnEnviar">Finalizar Pedido</button>
+
+    <script type="module" src="/a/Cliente/JS/CardapioLC.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+    font-family: "Bungee", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 12, 12);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infocliente, select, input{
+border: none;
+border-radius: 10px;
+}
+
+
+.cardapio {
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.item {
+    width: 350px;
+    background-color: #060196;
+    padding: 15px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    margin-bottom: 25px; 
+}
+
+.item:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.descricao {
+    width: 100%;
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pedido {
+    
+    background-color: #060196;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 15px; 
+}
+
+.botao{
+    background: #060196;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+
+    transition: 0.3s;
+}
+
+.botao:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px  #3a34fc;
+}
+
+.item input{
+    width: 35px;
+    background-color: white;
+    border: none;
+    border-radius:8px;
+}
+.item button{
+    color: #060196;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+   
+
+}
+
+.itens{
+display: none;
+}
+
+.esgotado-label{
+color: rgb(255, 255, 255);
+font-weight: bold;
+margin-top: 5px;
+}
+
+button:disabled{
+opacity: 0.5;
+cursor: not-allowed;
+}

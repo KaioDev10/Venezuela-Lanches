@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    color: white;
+    font-family: "Bungee", sans-serif;
+}
+
+.box {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+       font-family: "Bungee", sans-serif;
+}
+
+button {
+    font-family: "Bungee", sans-serif;
+    font-size: 30px;
+    background: #060196;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #3a34fc;
+}
+
+
+.erro {
+    color: red;
+    margin-top: 10px;
+}

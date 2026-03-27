@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 12, 12);
+    font-family: "Bungee", sans-serif;
+    color: white;
+}
+
+button {
+    background-color: #060196;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    /* aqui também corrigi um erro */
+    background-color: rgba(160, 165, 252, 0.691);
+}
+
+a {
+    text-decoration: none;
+    font-family: "Bungee", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
